@@ -6,27 +6,22 @@
 
     <!-- Favicon Integration -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" data-color="#00aba9">
-    <meta name="apple-mobile-web-app-title" content="Helge.Media">
-    <meta name="application-name" content="Helge.Media">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" data-color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="helge.media">
+    <meta name="application-name" content="helge.media">
     <meta name="theme-color" content="#ffffff">
+    <!-- Google Font Integration -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="CSS/style.css" type="text/css" rel="stylesheet">
-    <!-- Bootstrap Integration -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
+    <!-- Main Font Integration / HalisGR-Regular for regular text and HalisGR-Medium for menus-->
+    <link href="fonts/HalisGR-Regular/fonts.css" rel="stylesheet">
+    <link href="fonts/HalisGR-Medium/fonts.css" rel="stylesheet">
+    <!-- JQuery Integration -->
+    <script src="JS/http_code.jquery.com_jquery-latest.js"></script>
+    <!-- Viewport Setup -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Analytics Tracking -->
     <script>
@@ -48,15 +43,26 @@
 
     </script>
 </head>
-<!--Struktur für die Landing Page-->
+<!-- Main Page -->
 <body>
-<div class="container-fluid main" id="maindiv1">
-    <h1 class="headings" id="main-heading">Wir sind Helge.</h1>
-</div>
+<script src="JS/index.js"></script>
 
-<!--Menu Div-->
-<div>
-
+<div class="wrapper">
+    <div class="logo"><a href="https://helge.media"><img src="images/Logo.svg"></a></div>
+    <div class="menu" id="mainmenu">
+        <a href="https://helge.media">Home</a>
+        <a href="https://helge.media/Referenzen">Referenzen</a>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="https://helge.media/Team">Team</a>
+        <a href="https://helge.media/Impressum">Impressum</a>
+    </div>
+    <div class="menuresponsive" id="mobilemenu">
+        <a href="https://helge.media">Home</a><br>
+        <a href="https://helge.media/Referenzen">Referenzen</a><br>
+        <a href="https://helge.media/Team">Team</a><br>
+        <a href="https://helge.media/Impressum">Impressum</a>
+    </div>
+    <div class="menubutton"><a href="javascript:void(0);" class="icon" id="button1" onclick="respMenu()">&#9776;</a></div>
 </div>
 </body>
 

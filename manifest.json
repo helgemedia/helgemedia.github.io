@@ -1,5 +1,5 @@
 {
-    "name": "Helge.Media",
+    "name": "helge.media",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -14,5 +14,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
+    "start_url": "https://helge.media",
     "display": "standalone"
 }
