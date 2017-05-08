@@ -140,3 +140,11 @@ body {
 #containerIn p {
     font-size: 14px;
 }
+
+/* Impressum Styling */
+
+#ankermarke {
+    display: inline;
+    width: 20px;
+    transform: translateY(28%);
+}
