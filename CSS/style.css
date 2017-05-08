@@ -11,9 +11,11 @@ body {
     padding: 0;
 }
 
+/*
 .wrapper {
     display: none;
 }
+*/
 
 /* Responsive Menu Styling */
 #mainmenu {
@@ -44,8 +46,9 @@ body {
     height: auto;
     top: 50px;
     right: 2px;
-    background-color: rgba(103, 117, 123, 0.8);
+    background-color: rgba(103, 117, 123, 0.92);
     padding: 20px 10px;
+    z-index: 300;
 }
 
 .menuresponsive a {
@@ -90,6 +93,10 @@ body {
     .menuresponsive.responsive {
         display: block;
     }
+
+    .menuresponsive.responsive a:hover {
+        background-color: #3c474d;
+    }
 }
 
 /* Logo Styling */
@@ -102,4 +109,34 @@ body {
 
 .logo img {
     width: 250px;
+}
+
+/* Content Container Styling */
+#containerOut {
+    position: absolute;
+    min-height: 800px;
+    height: auto;
+    left: 20px;
+    right: 20px;
+    top: 170px;
+    margin-bottom: 20px;
+    background-color: rgba(241, 250, 255, 0.9);
+    border-radius: 2px;
+}
+
+#containerIn {
+    position: relative;
+    height: auto;
+    max-width: 600px;
+    margin: auto;
+    padding: 4px;
+    font-family: "HalisGR-Regular", sans-serif;
+}
+
+#containerIn h2 {
+    font-size: 20px;
+}
+
+#containerIn p {
+    font-size: 14px;
 }

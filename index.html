@@ -42,27 +42,31 @@
         ga('send', 'pageview');
 
     </script>
+    <!-- Animation Integration -->
+    <link rel="stylesheet" href="animsition-master/dist/css/animsition.min.css">
+    <script src="animsition-master/dist/js/animsition.min.js"></script>
 </head>
 <!-- Main Page -->
 <body>
 <script src="JS/index.js"></script>
 
-<div class="wrapper">
-    <div class="logo"><a href="https://helge.media"><img src="images/Logo.svg"></a></div>
+<div class="wrapper animsition">
+    <div class="logo"><a href="https://helge.media" class="animsition-link"><img src="images/Logo.svg"></a></div>
     <div class="menu" id="mainmenu">
-        <a href="https://helge.media">Home</a>
-        <a href="https://helge.media/Referenzen">Referenzen</a>
+        <a href="https://helge.media/Referenzen" class="animsition-link">Referenzen</a>
+        <a href="https://helge.media/Team" class="animsition-link">Team</a>
         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        <a href="https://helge.media/Team">Team</a>
-        <a href="https://helge.media/Impressum">Impressum</a>
+        <a href="https://helge.media/Kontakt" class="animsition-link">Kontakt</a>
+        <a href="https://helge.media/Impressum" class="animsition-link">Impressum</a>
     </div>
     <div class="menuresponsive" id="mobilemenu">
-        <a href="https://helge.media">Home</a><br>
-        <a href="https://helge.media/Referenzen">Referenzen</a><br>
-        <a href="https://helge.media/Team">Team</a><br>
-        <a href="https://helge.media/Impressum">Impressum</a>
+        <a href="https://helge.media/Referenzen" class="animsition-link">Referenzen</a><br>
+        <a href="https://helge.media/Team" class="animsition-link">Team</a><br>
+        <a href="https://helge.media/Kontakt" class="animsition-link">Kontakt</a><br>
+        <a href="https://helge.media/Impressum" class="animsition-link">Impressum</a>
     </div>
-    <div class="menubutton"><a href="javascript:void(0);" class="icon" id="button1" onclick="respMenu()">&#9776;</a></div>
+    <div class="menubutton"><a href="javascript:void(0);" class="icon" id="button1" onclick="respMenu()">&#9776;</a>
+    </div>
 </div>
 </body>
 
