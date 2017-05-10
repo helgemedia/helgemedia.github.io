@@ -39,4 +39,10 @@ $(document).ready(function () {
             window.location.href = url;
         }
     });
+
 });
+
+//Email Adress Anti-Spam var
+
+var first = "info";
+var last = "helge.media";
