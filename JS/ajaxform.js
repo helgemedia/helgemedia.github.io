@@ -20,7 +20,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $(".fadein").on('click', function() {
+    $(".fadein").on('click', function () {
         $(".fadein").fadeOut();
     });
 });

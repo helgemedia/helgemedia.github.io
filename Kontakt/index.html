@@ -69,8 +69,9 @@
     <div class="menubutton"><a href="javascript:void(0);" class="icon" id="button1" onclick="respMenu()">&#9776;</a>
     </div>
     <div class="container" id="containerOut">
-        <div class="container" id="containerIn">
-            <h2>Schreib uns!</h2>
+
+        <div class="container containercon" id="containerIn">
+            <h2 id="schreib">Schreib uns!</h2>
             <div class="contactdata divinner" id="contactd">
                 Helge.Media GbR<br>
                 Neustraße 13<br>
@@ -81,7 +82,7 @@
                     document.write('<a href="mailto:' + first + '@' + last + '">' + first + '@' + last + '<\/a>');
                 </script>
                 <noscript>
-                    Please enable javascript or use the contact form.
+                    Bitte Javascript aktivieren!.
                 </noscript>
                 <br>Telefon: +49 (0) 234 - 927 2944 - 1
             </div>
@@ -90,27 +91,29 @@
                 <form method="post" action="submit.php" class="ajaxform">
 
                     <p><label for="name">Name:</label>
-                        <br/><input name="name" class="inputs shorti" id="name"/></p>
+                        <br/><input name="name" class="inputs shorti" id="name" placeholder="Name"/></p>
 
                     <p><label for="email">E-Mail:</label>
-                        <br/><input name="email" class="inputs shorti" id="email"/></p>
+                        <br/><input name="email" class="inputs shorti" id="email" placeholder="E-Mail"/></p>
 
                     <!-- If fields are added to the form, submit.php needs to be updated -->
 
                     <p class="antispam"><label for="antispam">Lass das hier leer! (Anti-Spam):</label>
-                        <br/><input name="url" class="inputs shorti" id="antispam"/></p>
+                        <br/><input name="url" class="inputs shorti" id="antispam"
+                                    placeholder="Lass das hier leer! (Antispam)"/></p>
 
                     <p><label for="message">Deine Botschaft:</label>
-                        <br/><textarea name="message" rows="10" cols="50" class="inputs" id="message"></textarea></p>
+                        <br/><textarea name="message" rows="10" cols="50" class="inputs" id="message"
+                                       placeholder="Deine Botschaft..."></textarea></p>
 
                     <p><input type="submit" value="Abschicken" id="sendbutton"/></p>
 
                 </form>
                 <div class="fadein" id="popup1">
-                    <p>LALALALALALALALALALALALA</p>
+                    <p>Danke, wir kümmern uns drum! &#x2713</p>
                 </div>
                 <div class="fadein" id="popup2">
-                    <p>LULULULULULULULULULULULU</p>
+                    <p>Bitte alles ausfüllen! &#x2715</p>
                 </div>
             </div>
         </div>
