@@ -46,3 +46,6 @@ $(document).ready(function () {
 
 var first = "info";
 var last = "helge.media";
+
+var firstj = "julian.treutler";
+var firstm = "michael.deyen";

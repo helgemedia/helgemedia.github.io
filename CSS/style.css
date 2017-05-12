@@ -155,6 +155,79 @@ body {
 /* Referenzen Styling */
 
 /* Team Styling */
+#teamheader {
+    font-size: 24px;
+    color: #67757B;
+    margin-bottom: 20px;
+}
+
+#teamcontainerIn {
+    position: relative;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+    padding: 8px;
+    font-family: "HalisGR-Regular", sans-serif;
+}
+
+.contentwrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.imgwrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.imgwrapper img {
+    width: 100%;
+    display: block;
+}
+
+.biowrapper {
+    display: none;
+    line-height: 50%;
+    background-color: #67757B;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+#bio1 {
+    padding-right: 12px;
+    left: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+#bio2 {
+    padding-left: 12px;
+    right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+#img1 {
+    border-radius: 4px 0 0 4px;
+}
+
+#img2 {
+    border-radius: 0 4px 4px 0;
+}
+
+@media (min-width: 620px) {
+    .contentwrapper {
+        width: 50%;
+    }
+    #imgwrap1 {
+        margin-right: 6px;
+    }
+    #imgwrap2 {
+        margin-left: 6px;
+    }
+}
 
 /* Kontakt Styling */
 #schreib {
@@ -168,6 +241,7 @@ body {
 }
 
 .divinner {
+    position: relative;
     float: left;
     width: 100%;
 }
@@ -230,10 +304,11 @@ body {
 
 .fadein {
     display: none;
-    position: relative;
+    position: absolute;
+    width: 99.3%;
+    top: 350px;
     z-index: 400;
     padding: 2px;
-    transform: translateY(-135%);
 }
 
 #popup2 {
