@@ -4,13 +4,19 @@
 
 $(document).ready(function () {
 
-    $("#img1").hover(function () {
-        $("#bio2").fadeIn(200);
+    $("#img1,#magsymbol1").on('click', function () {
+        $("#bio2").toggleClass("hover");
     });
-    $("#img2").hover(function () {
-        $("#bio1").fadeIn(200);
+    $("#img2,#magsymbol2").on('click', function () {
+        $("#bio1").toggleClass("hover");
     });
-    $("body,#teamheader").not("#img1,#img2,#bio1,#bio2").hover(function () {
-        $("#bio2,#bio1").fadeOut(200);
+    $("#img3,#bio5,#magsymbol3").on('click', function () {
+        $("#bio5").toggleClass("hover");
+    });
+
+    $(".magsymbol").hover(function () {
+        $(this).addClass("animated infinite pulse");
+    }, function () {
+        $(this).removeClass("animated infinite pulse");
     });
 });

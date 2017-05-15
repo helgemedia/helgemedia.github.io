@@ -49,3 +49,6 @@ var last = "helge.media";
 
 var firstj = "julian.treutler";
 var firstm = "michael.deyen";
+
+var firstma = "maike.weckenbrock";
+var lastma = "yahoo.de";

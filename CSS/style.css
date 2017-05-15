@@ -161,6 +161,12 @@ body {
     margin-bottom: 20px;
 }
 
+#friendsheader {
+    font-size: 24px;
+    color: #67757B;
+    margin-bottom: 20px;
+}
+
 #teamcontainerIn {
     position: relative;
     height: auto;
@@ -177,6 +183,13 @@ body {
     margin-bottom: 20px;
 }
 
+.friendscontentwrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .imgwrapper {
     position: relative;
     display: inline-block;
@@ -185,6 +198,11 @@ body {
 .imgwrapper img {
     width: 100%;
     display: block;
+    border-radius: 4px;
+}
+
+.magsymbol {
+    display: none;
 }
 
 .biowrapper {
@@ -194,6 +212,15 @@ body {
 
 .biowrapper2 {
     display: block;
+}
+
+.biowrapper3 {
+    display: block;
+}
+
+.biowrapper3 a {
+    text-decoration: none;
+    color: #67757B;
 }
 
 .biowrapper a {
@@ -214,6 +241,10 @@ body {
     margin: 0;
 }
 
+.web {
+    margin: 0;
+}
+
 .blockerdiv {
     display: block;
     position: absolute;
@@ -226,6 +257,10 @@ body {
 @media (min-width: 620px) {
     .blockerdiv {
         display: none;
+    }
+
+    .friendscontentwrapper {
+        width: 33%;
     }
 
     .contentwrapper {
@@ -242,7 +277,32 @@ body {
         height: 100%;
         width: 100%;
         top: 0;
+        z-index: 400;
     }
+
+    .biowrapper3 {
+        display: none;
+        background-color: #67757B;
+        position: absolute;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        border-radius: 4px;
+        color: #FFFFFF;
+        padding-top: 10px;
+        z-index: 400;
+    }
+
+    .biowrapper3 a {
+        text-decoration: none;
+        color: #b5c5cb;
+    }
+
+    .biowrapper3 p {
+        font-size: 14px;
+    }
+
     .biowrapper h3 {
         margin-top: 60px;
     }
@@ -270,6 +330,21 @@ body {
 
     #img2 {
         border-radius: 0 4px 4px 0;
+    }
+
+    .hover {
+        display: block;
+    }
+
+    .magsymbol {
+        display: block;
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        z-index: 200;
+        padding: 2px;
+        font-size: 18px;
+        color: #67757B;
     }
 }
 
