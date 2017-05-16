@@ -50,5 +50,5 @@ var last = "helge.media";
 var firstj = "julian.treutler";
 var firstm = "michael.deyen";
 
-var firstma = "maike.weckenbrock";
-var lastma = "yahoo.de";
+var firstma = "maike";
+var lastma = "iammai.de";

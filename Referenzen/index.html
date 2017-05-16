@@ -13,8 +13,10 @@
     <meta name="apple-mobile-web-app-title" content="helge.media">
     <meta name="application-name" content="helge.media">
     <meta name="theme-color" content="#ffffff">
-    <!-- Google Font Integration -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Font Awesome Integration (Fancy Icons) -->
+    <script src="https://use.fontawesome.com/9fdf4d3d8a.js"></script>
+    <!-- Animate.css Integration -->
+    <link href="../CSS/animate.css" type="text/css" rel="stylesheet">
     <!-- Stylesheet-->
     <link href="../CSS/style.css" type="text/css" rel="stylesheet">
     <!-- Main Font Integration / HalisGR-Regular for regular text and HalisGR-Medium for menus-->
@@ -50,6 +52,7 @@
 <!-- Referenzen -->
 <body>
 <script src="../JS/index.js"></script>
+<script src="../JS/ref.js"></script>
 
 <div class="wrapper animsition">
     <div class="logo"><a href="https://helge.media" class="animsition-link"><img src="../images/Logo.svg"></a></div>
@@ -69,8 +72,17 @@
     <div class="menubutton"><a href="javascript:void(0);" class="icon" id="button1" onclick="respMenu()">&#9776;</a>
     </div>
     <div class="container" id="containerOut">
-        <div class="container" id="containerIn">
-            <p>in Arbeit!</p>
+        <div class="container containerRef" id="refContainerIn">
+            <h2 id="refheader">Was Helge so macht...</h2>
+            <div class="referencewrapper" id="ref1">
+                <img class="refimages" id="refimg1" src="../images/Platzhalter.png">
+            </div>
+            <div class="referencewrapper" id="ref2">
+                <img class="refimages" id="refimg2" src="../images/Platzhalter.png">
+            </div>
+            <div class="referencewrapper" id="ref3">
+                <img class="refimages" id="refimg3" src="../images/Platzhalter.png">
+            </div>
         </div>
     </div>
 </div>
