@@ -5,8 +5,16 @@
 
 $(document).ready(function () {
 
-    $("#img1,#magsymbol1").on('click', function () {
-        $("#bio2").toggleClass("hover");
+    $("#refimg1,#refd1,#refblock1").on('click', function () {
+        $("#refd1").toggleClass("hover");
+    });
+
+    $("#refimg2,#refd2,#refblock2").on('click', function () {
+        $("#refd2").toggleClass("hover");
+    });
+
+    $("#refimg3,#refd3,#refblock3").on('click', function () {
+        $("#refd3").toggleClass("hover");
     });
 
     $("#refimg1,#refimg2,#refimg3").hover(function () {
