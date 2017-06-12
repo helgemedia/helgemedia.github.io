@@ -152,6 +152,11 @@ body {
     text-decoration: none;
 }
 
+.reflinks {
+    color: #b5c5cb;
+    text-decoration: none;
+}
+
 /* Referenzen Styling */
 #refContainerIn {
     position: relative;
