@@ -85,7 +85,7 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 750px) {
   .menu {
     display: none;
   }
@@ -243,7 +243,7 @@ body {
   z-index: 400;
 }
 
-@media (min-width: 630px) {
+@media (min-width: 750px) {
   .refblockerdiv {
     display: none;
   }
@@ -391,7 +391,7 @@ body {
   height: 60%;
 }
 
-@media (min-width: 630px) {
+@media (min-width: 750px) {
   .blockerdiv {
     display: none;
   }
@@ -492,7 +492,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 630px) {
+@media (min-width: 750px) {
   .divinner {
     width: 50%;
   }
