@@ -502,7 +502,8 @@ body {
   font-family: "HalisGR-Regular", sans-serif;
   font-size: 14px;
   margin-top: 32px;
-  text-align: left;
+  text-align: center;
+  width: 100%;
 }
 
 #contactd a {
