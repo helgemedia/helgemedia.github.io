@@ -492,20 +492,13 @@ body {
   font-family: "HalisGR-Regular", sans-serif;
   font-size: 14px;
   margin-top: 32px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 #contactd a {
   color: #67757b;
   text-decoration: none;
-}
-
-#contactf {
-  margin-bottom: 20px;
-}
-
-#contactf label {
-  display: none;
 }
 
 .inputs {
