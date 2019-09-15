@@ -149,6 +149,7 @@ body {
 
 #ankermarke {
   display: inline;
+  width: 20px;
   transform: translateY(28%);
 }
 
